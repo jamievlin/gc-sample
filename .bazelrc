@@ -1,0 +1,6 @@
+build:win --cxxopt=/std:c++17
+build:win --cxxopt=/Wall
+build:win --cxxopt=/EHsc
+
+build:wsl --cxxopt="--std=c++17"
+build:wsl --cxxopt="-Wall"
