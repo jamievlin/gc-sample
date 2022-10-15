@@ -3,5 +3,5 @@ cc_library(
     srcs = ["gcservice.cpp"],
     hdrs = ["gcservice.h"],
     visibility = ["//:__pkg__"],
-    deps = [],
+    deps = ["//third_party:gc"],
 )
